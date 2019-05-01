@@ -7,4 +7,6 @@ def display_rainbow(colors)
   puts "#{rainbow.join(", ")}"
 end
 
-colors = []
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+display_rainbow(colors)
