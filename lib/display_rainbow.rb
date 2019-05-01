@@ -1,5 +1,5 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  rainbow = ""
+  rainbow = []
   7.times do |i|
-    rainbow += 
+    rainbow.push("#{colors[i][0].uppercase") 
